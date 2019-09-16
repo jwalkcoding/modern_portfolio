@@ -145,12 +145,13 @@ header {
   color: #eece1a; }
 
 main {
-  padding: 4rem; }
-  main min-height:calc(100vh -60px) .icons {
+  padding: 4rem;
+  min-height: calc(100vh - 60px); }
+  main .icons {
     margin-top: 1rem; }
-    main min-height:calc(100vh -60px) .icons a {
+    main .icons a {
       padding: 0.4rem; }
-      main min-height:calc(100vh -60px) .icons a:hover {
+      main .icons a:hover {
         color: #eece1a;
         transition: all 0.5s ease-in-out; }
   main#home {
@@ -197,6 +198,25 @@ main {
       transition: all 0.5s ease-in-out; }
   .projects img {
     width: 100%; }
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-in-out; }
+    .boxes div:hover {
+      padding: 0.5rem 1.5rem;
+      background: #eece1a;
+      color: #000; }
+      .boxes div:hover span {
+        color: #000; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
